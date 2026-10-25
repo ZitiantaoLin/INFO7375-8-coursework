@@ -1,0 +1,36 @@
+{
+  "version": "eyespan-course-pitch-v2",
+  "narration_fingerprint": "4851923f3ed960f933db834f53c1e403be6a9f3857f773d92227603a985cd5ab",
+  "changed_beats": [
+    "B01",
+    "B02",
+    "B03",
+    "B04",
+    "B05",
+    "B06",
+    "B07",
+    "B08",
+    "B09",
+    "B10",
+    "B11",
+    "B12"
+  ],
+  "source_project": "F:\\INFO7375-8\\Final Project Pitch Film\\eyespan-film-starter\\eyespan-film",
+  "audio_complete": true,
+  "audio_hashes": {
+    "mp3/beat-B00.mp3": "3fce0ce10b3b7ef52248a4248e730ff4be68bebbcdbb0705a6e84fe04f774d59",
+    "mp3/beat-B01.mp3": "74248b2dadba660f66d364a1f961ec7f60581a58cc502fcbf433ac356e862904",
+    "mp3/beat-B02.mp3": "f989b30ba679317c92675469d50aab2b0ea62565c4ff344ccd570b0cff75fa12",
+    "mp3/beat-B03.mp3": "eed025217c7180f0a98026432ad74e8ae00f8dc7162e8e6b40a2e7045975fb8b",
+    "mp3/beat-B04.mp3": "664d9aee9636b1f8fe26033591601ec8922f7be6b0dd26c7b5f2af81c2ac4856",
+    "mp3/beat-B05.mp3": "3f883d9ecd286254e9f6a06684b68cdb09e8a30ff6905de2c313df573d7f13bd",
+    "mp3/beat-B06.mp3": "ed554e1427ce002c7ac5aa9e771d5a7203660ca24b81edb66c007d5b95af7c18",
+    "mp3/beat-B07.mp3": "6ed9b2051d0f0136f51474cb2b261d846ccf7e07f401fb211e0fcdb5c7ec4146",
+    "mp3/beat-B08.mp3": "403ca0d1462347e321292d0ac4872535dd5574e327a706de1e91a74b4ad55f73",
+    "mp3/beat-B09.mp3": "7ca9df5551429ba47378d889532655b6e9b8d35279f0225698440049a7aa1a49",
+    "mp3/beat-B10.mp3": "04c2bacaabff2738b0b496df9fc328ee9784c9a1889f7e3958d654a6c06d4c4d",
+    "mp3/beat-B11.mp3": "55b766070dbd306375fad8e4132197c8fa1bc2249cd8a3b23a10aeb6beafad4b",
+    "mp3/beat-B12.mp3": "af70322c9e251d3cd0e82bd3e5185cbe33a3beb6b597ae8f7bedab08d179dbd2"
+  },
+  "render_signature": "5587812ed210fa401dd2a3ac6c3bde97d0658787d80ac97e553693aa4928142acfe078ba1b8aa0124073ec74247c32d5c51df3d46129ba41abb17d1fa638b7ec"
+}

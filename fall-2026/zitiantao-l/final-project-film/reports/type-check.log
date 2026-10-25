@@ -1,0 +1,19 @@
+Arguments: ["F:\\INFO7375-8\\.envs\\pitch-film\\python.exe", "F:\\INFO7375-8\\Final Project Pitch Film\\brutalist.art\\runtime\\scripts\\type_check.py", "F:\\INFO7375-8\\Final Project Pitch Film\\eyespan-film-v2"]
+
+[typecheck] wrote F:\INFO7375-8\Final Project Pitch Film\eyespan-film-v2\TYPECHECK.md
+[typecheck] §8.10 B00: SKIP
+[typecheck] §8.10 B01: SKIP
+[typecheck] §8.10 B02: SKIP
+[typecheck] §8.10 B03: SKIP
+[typecheck] §8.10 B04: SKIP
+[typecheck] §8.10 B05: SKIP
+[typecheck] §8.10 B06: SKIP
+[typecheck] §8.10 B07: SKIP
+[typecheck] §8.10 B08: SKIP
+[typecheck] §8.10 B09: SKIP
+[typecheck] §8.10 B10: SKIP
+[typecheck] §8.10 B11: SKIP
+[typecheck] §8.10 B12: SKIP
+[typecheck] GATE T: PASS
+
+Exit code: 0

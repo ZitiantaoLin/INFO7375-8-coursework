@@ -1,0 +1,14 @@
+# Sources and contributions
+
+- Student: Zitiantao Lin supplied and revised the project concept, confirmed independent implementation of the full RaycastGrasp prototype, obtained dataset permission, ran the local build and reviewed the V1 narration/film. V2 full playback is not assumed.
+- RaycastGrasp prototype: student implementation integrates MR, eye tracking, object detection and robot control. Paper authorship/other research credit remains as listed in the supplied manuscript; sole implementation does not erase coauthor credit.
+- `pantry/raycast_setup.png`: supplied existing setup image, received 2026-10-24. The original capture date was not supplied. Scaling and explanatory guides do not establish live execution or measured performance.
+- `pantry/dataset_overview_supplied.png`: scene montage prepared/supplied by the author, received 2026-10-24. The supplied background draft describes it as Ego-Exo4D scene examples and describes manual reference annotation. This pitch uses it as scene context; every prediction/reference comparison drawn beside it is constructed, not an executed result. The draft's numerical results were not independently reproduced and are not presented here as new course measurements.
+- Temporal charts: original native drawings based on the student-supplied Formation/Switching/Deliberation concept. Constructed behaviour examples, not measured traces. Dwell completion is labelled as requesting confirmation; no universal optimal threshold or proven safety is claimed.
+- Ego-Exo4D: author confirmed licensed access. No raw dataset bundle, credentials or private transcripts are included. Official documentation: https://docs.ego-exo4d-data.org/ . Public sharing must follow the actual license held.
+- Brutalist: https://github.com/nikbearbrown/brutalist.art . Original local Kokoro generation, compiler and applicable QC are invoked without bypasses. Toolkit source, node_modules and model weights are not bundled.
+- Voice: local Kokoro am_onyx preset. Script speaks as Zitiantao Lin; no instructor persona, portrait, greeting or channel credit is used.
+- Visuals: original Pillow/FFmpeg drawings and media-slot composition prepared with ChatGPT, using the toolkit's show-tell palette vocabulary. Concept frames are labelled Constructed. No paid generation, stock music or external media account is used.
+- Fonts: bundled unchanged DejaVu Sans and Serif; fonts/DEJAVU-LICENSE.txt contains the license notice.
+- ChatGPT: narration revision, translations, shot design, native rendering code, build scripts and review suggestions. Claude contribution: none confirmed.
+- Automated QC does not establish scientific correctness, intended-user validation or complete human playback. Reports are actual local command outputs; Manim-only A/W/B and publishing-only 4K passes are not claimed.

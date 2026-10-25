@@ -1,0 +1,1913 @@
+{
+  "metadata": {
+    "title": "EyeSpan: Gaze Across Views and Time",
+    "slug": "eyespan-final-project-pitch",
+    "author": "Zitiantao Lin",
+    "profile": "student-project-pitch",
+    "kind": "course-pitch",
+    "course": "INFO7375-8",
+    "aspect_ratio": "16:9",
+    "fps": 24,
+    "engine": "kokoro",
+    "voice_kokoro": "am_onyx",
+    "narrator_identity": "Zitiantao Lin; local preset synthetic voice",
+    "production_status": "v2_audio_and_visuals_ready_master_pending",
+    "language": "en",
+    "created_date": "2026-10-24",
+    "course_overrides": [
+      "Narrate as the student. No instructor name, persona, portrait, or channel credit.",
+      "Course pitch duration is 2-4 minutes, shorter permitted if complete.",
+      "Use only free local narration and rendering.",
+      "Existing research and proposed course outputs must remain distinct."
+    ],
+    "estimated_duration_note": "Planning estimate only. Toolkit-measured audio becomes the actual clock.",
+    "external_dataset": {
+      "name": "Ego-Exo4D",
+      "access": "user reports valid license",
+      "role": "proposed algorithm verification support",
+      "raw_data_included": false
+    },
+    "visual_evidence_policy": "Static diagrams, existing setup photographs, and scene examples. No recorded EyeSpan execution is supplied. Animations of concepts remain labelled Constructed.",
+    "visual_renderer": "Original local Pillow/FFmpeg drawings supplied to Brutalist media slots.",
+    "revision": "v2",
+    "build": {
+      "at": "2026-10-24T21:24:46",
+      "cut": "master",
+      "filled": 13,
+      "of": 13,
+      "slates": [],
+      "skin_warnings": [
+        "NO RENDERABLE BEATS: no beat carries a shot.remotion.pattern or Manim annotation — the pipeline will render NOTHING and every slot becomes a YOU-slate. The sheet was authored without the scene contract."
+      ]
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "title": "Different views",
+      "narration_text": "When two people face each other, they see different views. One may follow the other's gaze and look for the same object. Could a robot do something similar?",
+      "estimated_duration_s": 12.0,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        7
+      ],
+      "new_visual_element": "Constructed illustration: two viewpoints directed at one tabletop cup. Use a gaze arrow and two camera frames; do not claim an observed social experiment.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Different views",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "actual_duration_s": 8.66,
+      "audio_file": "mp3/beat-B00.mp3",
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "Different views. Shared attention.",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.6302083333333334,
+              0.17222222222222222
+            ]
+          },
+          {
+            "label": "01 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.2916666666666667,
+              0.6240740740740741,
+              0.31197916666666664,
+              0.6620370370370371
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.19010416666666666,
+              0.6453703703703704,
+              0.21041666666666667,
+              0.6833333333333333
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.7854166666666667,
+              0.6157407407407407,
+              0.8057291666666667,
+              0.6537037037037037
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.690625,
+              0.649074074074074,
+              0.7109375,
+              0.687037037037037
+            ]
+          },
+          {
+            "label": "User view",
+            "box": [
+              0.1921875,
+              0.2324074074074074,
+              0.3026041666666667,
+              0.275
+            ]
+          },
+          {
+            "label": "Robot view",
+            "box": [
+              0.6911458333333333,
+              0.2324074074074074,
+              0.8145833333333333,
+              0.275
+            ]
+          },
+          {
+            "label": "Same object. Different viewpoints.",
+            "box": [
+              0.3067708333333333,
+              0.7685185185185185,
+              0.6927083333333334,
+              0.8212962962962963
+            ]
+          },
+          {
+            "label": "Constructed / proposed interaction",
+            "box": [
+              0.35052083333333334,
+              0.8925925925925926,
+              0.6494791666666667,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 8.666666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B00.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "title": "What is EyeSpan?",
+      "narration_text": "EyeSpan is my proposed gaze-guided assistive robot system for tabletop object selection. It is intended for people with limited arm movement. The system will map their gaze target into the robot's view, request confirmation, then guide grasping.",
+      "estimated_duration_s": 15.86,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        1
+      ],
+      "new_visual_element": "Constructed EyeSpan concept illustration: ego gaze, robot-view target, confirmation, grasp. No running-video claim. Use a fresh simple diagram; do not relabel a GazeCastGrasp figure as EyeSpan.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Gaze to grasp",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B01.mp3",
+      "actual_duration_s": 14.76,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "Look. Locate. Confirm. Grasp.",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.5666666666666667,
+              0.18333333333333332
+            ]
+          },
+          {
+            "label": "02 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.2916666666666667,
+              0.6240740740740741,
+              0.31197916666666664,
+              0.6620370370370371
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.19010416666666666,
+              0.6453703703703704,
+              0.21041666666666667,
+              0.6833333333333333
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.7854166666666667,
+              0.6157407407407407,
+              0.8057291666666667,
+              0.6537037037037037
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.690625,
+              0.649074074074074,
+              0.7109375,
+              0.687037037037037
+            ]
+          },
+          {
+            "label": "User view",
+            "box": [
+              0.1921875,
+              0.2324074074074074,
+              0.3026041666666667,
+              0.275
+            ]
+          },
+          {
+            "label": "Robot view",
+            "box": [
+              0.6911458333333333,
+              0.2324074074074074,
+              0.8145833333333333,
+              0.275
+            ]
+          },
+          {
+            "label": "Gaze",
+            "box": [
+              0.34739583333333335,
+              0.7305555555555555,
+              0.4005208333333333,
+              0.7685185185185185
+            ]
+          },
+          {
+            "label": "Estimate",
+            "box": [
+              0.5791666666666667,
+              0.7296296296296296,
+              0.665625,
+              0.7685185185185185
+            ]
+          },
+          {
+            "label": "Look",
+            "box": [
+              0.2265625,
+              0.7925925925925926,
+              0.284375,
+              0.8351851851851851
+            ]
+          },
+          {
+            "label": "Map",
+            "box": [
+              0.390625,
+              0.7935185185185185,
+              0.4427083333333333,
+              0.8425925925925926
+            ]
+          },
+          {
+            "label": "Confirm",
+            "box": [
+              0.5380208333333333,
+              0.7925925925925926,
+              0.6286458333333333,
+              0.8351851851851851
+            ]
+          },
+          {
+            "label": "Grasp",
+            "box": [
+              0.7098958333333333,
+              0.7925925925925926,
+              0.7796875,
+              0.8425925925925926
+            ]
+          },
+          {
+            "label": "Constructed / proposed interaction",
+            "box": [
+              0.35052083333333334,
+              0.8925925925925926,
+              0.6494791666666667,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 14.791666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B01.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "title": "Existing foundation",
+      "narration_text": "I independently built the full RaycastGrasp prototype, integrating mixed reality, eye tracking, object detection, and robot control. The existing setup and project materials provide evidence of my experience in gaze interaction and robotic system integration.",
+      "estimated_duration_s": 15.0,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        2,
+        7
+      ],
+      "new_visual_element": "Show the supplied RaycastGrasp setup photograph and identify it as existing work. The photograph establishes equipment layout, not performance. Manual steps are the author's account.",
+      "evidence_status": "existing_source",
+      "on_screen_label": "RaycastGrasp",
+      "honesty_label": "Existing RaycastGrasp setup / capture date not supplied",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B02.mp3",
+      "actual_duration_s": 15.64,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "I built RaycastGrasp",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.40989583333333335,
+              0.18425925925925926
+            ]
+          },
+          {
+            "label": "03 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "Mixed reality",
+            "box": [
+              0.7145833333333333,
+              0.2851851851851852,
+              0.8432291666666667,
+              0.3314814814814815
+            ]
+          },
+          {
+            "label": "Eye tracking",
+            "box": [
+              0.7145833333333333,
+              0.4148148148148148,
+              0.8401041666666667,
+              0.46111111111111114
+            ]
+          },
+          {
+            "label": "Object detection",
+            "box": [
+              0.7145833333333333,
+              0.5444444444444444,
+              0.8786458333333333,
+              0.5907407407407408
+            ]
+          },
+          {
+            "label": "Robot control",
+            "box": [
+              0.7145833333333333,
+              0.674074074074074,
+              0.8484375,
+              0.7138888888888889
+            ]
+          },
+          {
+            "label": "Image supplied 24 Oct 2026",
+            "box": [
+              0.3776041666666667,
+              0.837037037037037,
+              0.6223958333333334,
+              0.8805555555555555
+            ]
+          },
+          {
+            "label": "Existing RaycastGrasp / prototype implemented by me",
+            "box": [
+              0.2671875,
+              0.8925925925925926,
+              0.7328125,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 15.666666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B02.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "title": "Why go further?",
+      "narration_text": "RaycastGrasp matched objects across views by category, with screenshots and manual cross-checking in my earlier workflow. But two cups share one category. EyeSpan will focus on the particular object and update its estimate continuously, aiming to reduce repeated manual submissions.",
+      "estimated_duration_s": 17.14,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        2
+      ],
+      "new_visual_element": "Constructed illustration: two cups both labelled cup. Highlight the unresolved instance choice. Do not imply this failure was measured or fully solved.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Which object?",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B03.mp3",
+      "actual_duration_s": 16.36,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "A category is not an instance",
+            "box": [
+              0.065625,
+              0.11388888888888889,
+              0.5505208333333333,
+              0.18425925925925926
+            ]
+          },
+          {
+            "label": "04 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.2916666666666667,
+              0.6240740740740741,
+              0.31197916666666664,
+              0.6620370370370371
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.19010416666666666,
+              0.6453703703703704,
+              0.21041666666666667,
+              0.6833333333333333
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.7854166666666667,
+              0.6157407407407407,
+              0.8057291666666667,
+              0.6537037037037037
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.690625,
+              0.649074074074074,
+              0.7109375,
+              0.687037037037037
+            ]
+          },
+          {
+            "label": "User view",
+            "box": [
+              0.1921875,
+              0.2324074074074074,
+              0.3026041666666667,
+              0.275
+            ]
+          },
+          {
+            "label": "Robot view",
+            "box": [
+              0.6911458333333333,
+              0.2324074074074074,
+              0.8145833333333333,
+              0.275
+            ]
+          },
+          {
+            "label": "Gaze",
+            "box": [
+              0.34739583333333335,
+              0.7305555555555555,
+              0.4005208333333333,
+              0.7685185185185185
+            ]
+          },
+          {
+            "label": "Estimate",
+            "box": [
+              0.5791666666666667,
+              0.7296296296296296,
+              0.665625,
+              0.7685185185185185
+            ]
+          },
+          {
+            "label": "Category: cup / Goal: the specific instance",
+            "box": [
+              0.3578125,
+              0.7833333333333333,
+              0.6416666666666667,
+              0.8333333333333334
+            ]
+          },
+          {
+            "label": "Constructed / proposed interaction",
+            "box": [
+              0.35052083333333334,
+              0.8925925925925926,
+              0.6494791666666667,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 16.375,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B03.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "title": "Intent over time",
+      "narration_text": "EyeSpan will distinguish stable looking, switching targets, and alternating looks. Stable gaze will accumulate dwell time; a target switch will reset it. Alternating looks below the threshold will keep the system waiting. Reaching the threshold will request confirmation; grasping will require user approval.",
+      "estimated_duration_s": 18.43,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        2,
+        7
+      ],
+      "new_visual_element": "Constructed time trace for fixation, target switching, and undecided looking. A moving target indicator is illustrative, not an algorithm output.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Hold / switch",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B04.mp3",
+      "actual_duration_s": 16.75,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "Three patterns. Three responses.",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.6197916666666666,
+              0.18333333333333332
+            ]
+          },
+          {
+            "label": "05 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "Hold",
+            "box": [
+              0.17864583333333334,
+              0.26296296296296295,
+              0.23802083333333332,
+              0.30833333333333335
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.07552083333333333,
+              0.38796296296296295,
+              0.09583333333333334,
+              0.42592592592592593
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.07552083333333333,
+              0.5268518518518519,
+              0.09583333333333334,
+              0.5648148148148148
+            ]
+          },
+          {
+            "label": "time",
+            "box": [
+              0.1953125,
+              0.6564814814814814,
+              0.24114583333333334,
+              0.6935185185185185
+            ]
+          },
+          {
+            "label": "Switch",
+            "box": [
+              0.45364583333333336,
+              0.26296296296296295,
+              0.5359375,
+              0.30833333333333335
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.3619791666666667,
+              0.38796296296296295,
+              0.38229166666666664,
+              0.42592592592592593
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.3619791666666667,
+              0.5268518518518519,
+              0.38229166666666664,
+              0.5648148148148148
+            ]
+          },
+          {
+            "label": "time",
+            "box": [
+              0.4817708333333333,
+              0.6564814814814814,
+              0.5276041666666667,
+              0.6935185185185185
+            ]
+          },
+          {
+            "label": "Alternate",
+            "box": [
+              0.7255208333333333,
+              0.26296296296296295,
+              0.8375,
+              0.30833333333333335
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.6484375,
+              0.38796296296296295,
+              0.66875,
+              0.42592592592592593
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.6484375,
+              0.5268518518518519,
+              0.66875,
+              0.5648148148148148
+            ]
+          },
+          {
+            "label": "Keep waiting",
+            "box": [
+              0.7166666666666667,
+              0.7157407407407408,
+              0.8458333333333333,
+              0.7620370370370371
+            ]
+          },
+          {
+            "label": "time",
+            "box": [
+              0.7682291666666666,
+              0.6564814814814814,
+              0.8140625,
+              0.6935185185185185
+            ]
+          },
+          {
+            "label": "Gaze target",
+            "box": [
+              0.29791666666666666,
+              0.8148148148148148,
+              0.4041666666666667,
+              0.8574074074074074
+            ]
+          },
+          {
+            "label": "Dwell accumulation",
+            "box": [
+              0.553125,
+              0.8138888888888889,
+              0.7255208333333333,
+              0.850925925925926
+            ]
+          },
+          {
+            "label": "Constructed / threshold requests confirmation",
+            "box": [
+              0.30364583333333334,
+              0.8925925925925926,
+              0.6963541666666667,
+              0.9361111111111111
+            ]
+          },
+          {
+            "label": "Reset",
+            "box": [
+              0.46458333333333335,
+              0.7166666666666667,
+              0.5255208333333333,
+              0.7555555555555555
+            ]
+          },
+          {
+            "label": "Request / confirmation",
+            "box": [
+              0.14479166666666668,
+              0.6981481481481482,
+              0.271875,
+              0.7796296296296297
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 16.75,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B04.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "title": "Inputs and boundaries",
+      "narration_text": "Target mapping will use the two camera views and the gaze location, without requiring a pre-calibrated user-to-robot transformation as a prediction input. Eye-tracker calibration and robot execution coordinates remain separate requirements.",
+      "estimated_duration_s": 13.29,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        1,
+        5
+      ],
+      "new_visual_element": "Constructed three-input diagram: ego image, gaze point, exo image. Keep sensor calibration and robot execution calibration outside this prediction boundary.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Three inputs",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B05.mp3",
+      "actual_duration_s": 14.19,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "Two views + gaze",
+            "box": [
+              0.06614583333333333,
+              0.11388888888888889,
+              0.36770833333333336,
+              0.18425925925925926
+            ]
+          },
+          {
+            "label": "06 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.2916666666666667,
+              0.6240740740740741,
+              0.31197916666666664,
+              0.6620370370370371
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.19010416666666666,
+              0.6453703703703704,
+              0.21041666666666667,
+              0.6833333333333333
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.7854166666666667,
+              0.6157407407407407,
+              0.8057291666666667,
+              0.6537037037037037
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.690625,
+              0.649074074074074,
+              0.7109375,
+              0.687037037037037
+            ]
+          },
+          {
+            "label": "User view",
+            "box": [
+              0.1921875,
+              0.2324074074074074,
+              0.3026041666666667,
+              0.275
+            ]
+          },
+          {
+            "label": "Robot view",
+            "box": [
+              0.6911458333333333,
+              0.2324074074074074,
+              0.8145833333333333,
+              0.275
+            ]
+          },
+          {
+            "label": "Images + gaze",
+            "box": [
+              0.41354166666666664,
+              0.737037037037037,
+              0.5864583333333333,
+              0.7888888888888889
+            ]
+          },
+          {
+            "label": "Device and execution calibration remain separate",
+            "box": [
+              0.27447916666666666,
+              0.8037037037037037,
+              0.725,
+              0.8490740740740741
+            ]
+          },
+          {
+            "label": "Constructed / proposed interaction",
+            "box": [
+              0.35052083333333334,
+              0.8925925925925926,
+              0.6494791666666667,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 14.208333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B05.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "title": "Who opens it?",
+      "narration_text": "My target role is robotics perception or human-robot interaction engineer. A hiring manager will find an interaction example, my contribution statement, and code within the first minute. This pitch uses labelled illustrations to show the intended experience.",
+      "estimated_duration_s": 15.86,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        3
+      ],
+      "new_visual_element": "Constructed future portfolio opening. Explicitly distinguish the proposed finished portfolio from this illustrated pitch; no fake live demonstration.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Open the demo",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B06.mp3",
+      "actual_duration_s": 15.4,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "Open it. Watch it. Inspect it.",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.5359375,
+              0.18333333333333332
+            ]
+          },
+          {
+            "label": "07 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "First 60 seconds",
+            "box": [
+              0.40729166666666666,
+              0.2037037037037037,
+              0.5927083333333333,
+              0.24814814814814815
+            ]
+          },
+          {
+            "label": "Demo",
+            "box": [
+              0.21510416666666668,
+              0.6777777777777778,
+              0.28541666666666665,
+              0.7194444444444444
+            ]
+          },
+          {
+            "label": "Code",
+            "box": [
+              0.615625,
+              0.37592592592592594,
+              0.6770833333333334,
+              0.4185185185185185
+            ]
+          },
+          {
+            "label": "My contribution",
+            "box": [
+              0.615625,
+              0.6074074074074074,
+              0.7869791666666667,
+              0.6574074074074074
+            ]
+          },
+          {
+            "label": "Constructed / planned portfolio",
+            "box": [
+              0.365625,
+              0.8925925925925926,
+              0.6338541666666667,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 15.416666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B06.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "title": "Exists and planned",
+      "narration_text": "I have written my course project concept and am now starting the course version of EyeSpan. I will deliver a repository with a system demonstration, implementation code, run instructions, and verification records. The planned stack includes Python and a Franka arm.",
+      "estimated_duration_s": 17.57,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        1,
+        5
+      ],
+      "new_visual_element": "Constructed two-lane progress view: existing research versus course deliverables. No fake screenshots of code or completed demonstrations.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Exists / planned",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B07.mp3",
+      "actual_duration_s": 15.15,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "From course concept to delivery",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.6057291666666667,
+              0.18425925925925926
+            ]
+          },
+          {
+            "label": "08 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "Concept written",
+            "box": [
+              0.140625,
+              0.6592592592592592,
+              0.3072916666666667,
+              0.7083333333333334
+            ]
+          },
+          {
+            "label": "Course build",
+            "box": [
+              0.43385416666666665,
+              0.6592592592592592,
+              0.5661458333333333,
+              0.700925925925926
+            ]
+          },
+          {
+            "label": "Demo + code",
+            "box": [
+              0.7041666666666667,
+              0.6592592592592592,
+              0.8484375,
+              0.700925925925926
+            ]
+          },
+          {
+            "label": "Now",
+            "box": [
+              0.3375,
+              0.7675925925925926,
+              0.38645833333333335,
+              0.8064814814814815
+            ]
+          },
+          {
+            "label": "Course end",
+            "box": [
+              0.71875,
+              0.7666666666666667,
+              0.8338541666666667,
+              0.8064814814814815
+            ]
+          },
+          {
+            "label": "Constructed / course-version delivery plan",
+            "box": [
+              0.31927083333333334,
+              0.8925925925925926,
+              0.68125,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 15.166666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B07.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "title": "First runnable piece",
+      "narration_text": "My first milestone will replay a small licensed Ego-Exo Four D sequence. I will log predictions, timestamps, and settings, and compare predictions with manually labelled reference targets. Ambiguous frames will be flagged. A public or synthetic example will make the workflow inspectable without dataset access.",
+      "estimated_duration_s": 19.29,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        5
+      ],
+      "new_visual_element": "Use the supplied dataset montage as example scenes for planned validation, never as prediction evidence. Frame it with 'Dataset examples / Planned validation'. Its existing title and colored overlays are not evidence of completed testing. Verify sources and overlay meanings before final display; if unresolved, use a constructed ego/exo replay diagram instead.",
+      "evidence_status": "supplied_scene_overview_not_algorithm_results",
+      "on_screen_label": "Dataset examples / Planned validation",
+      "honesty_label": "Scene examples; validation planned",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B08.mp3",
+      "actual_duration_s": 17.69,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "Make the mapping checkable",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.5572916666666666,
+              0.18425925925925926
+            ]
+          },
+          {
+            "label": "09 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "Scene examples",
+            "box": [
+              0.24114583333333334,
+              0.20462962962962963,
+              0.4203125,
+              0.25462962962962965
+            ]
+          },
+          {
+            "label": "Planned check",
+            "box": [
+              0.6807291666666667,
+              0.24166666666666667,
+              0.840625,
+              0.28425925925925927
+            ]
+          },
+          {
+            "label": "Reference",
+            "box": [
+              0.7270833333333333,
+              0.6185185185185185,
+              0.8296875,
+              0.6583333333333333
+            ]
+          },
+          {
+            "label": "Prediction",
+            "box": [
+              0.728125,
+              0.6694444444444444,
+              0.8296875,
+              0.7092592592592593
+            ]
+          },
+          {
+            "label": "Time / target / settings",
+            "box": [
+              0.6578125,
+              0.7583333333333333,
+              0.8567708333333334,
+              0.8018518518518518
+            ]
+          },
+          {
+            "label": "Figure supplied 24 Oct 2026",
+            "box": [
+              0.20885416666666667,
+              0.8138888888888889,
+              0.45208333333333334,
+              0.8574074074074074
+            ]
+          },
+          {
+            "label": "Dataset scene examples / constructed comparison",
+            "box": [
+              0.284375,
+              0.8925925925925926,
+              0.715625,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 17.708333333333332,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B08.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "title": "Evidence and scope",
+      "narration_text": "I will start with a controlled tabletop and a few stationary objects. Moving-object grasping is outside this stage. Offline mapping checks will not establish successful robot grasping. Evaluation with people with motor impairments remains future work.",
+      "estimated_duration_s": 15.43,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        4,
+        5
+      ],
+      "new_visual_element": "Constructed scope illustration: a bounded tabletop with a few stationary objects. Dataset predictions and physical robot evidence remain separately labelled.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Tabletop scope",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B09.mp3",
+      "actual_duration_s": 14.66,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "One controlled tabletop",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.4635416666666667,
+              0.18333333333333332
+            ]
+          },
+          {
+            "label": "10 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.5192708333333333,
+              0.6361111111111111,
+              0.5395833333333333,
+              0.674074074074074
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.34010416666666665,
+              0.6722222222222223,
+              0.36041666666666666,
+              0.7101851851851851
+            ]
+          },
+          {
+            "label": "Stationary objects",
+            "box": [
+              0.328125,
+              0.7833333333333333,
+              0.5260416666666666,
+              0.8333333333333334
+            ]
+          },
+          {
+            "label": "Target-user evaluation: future work",
+            "box": [
+              0.3484375,
+              0.837037037037037,
+              0.6510416666666666,
+              0.8805555555555555
+            ]
+          },
+          {
+            "label": "Constructed / controlled tabletop scope",
+            "box": [
+              0.3307291666666667,
+              0.8925925925925926,
+              0.6692708333333334,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 14.666666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B09.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "title": "Concrete failure",
+      "narration_text": "Look-alike objects may cause wrong-target selection. Smoothing may preserve an error or delay a switch. I will examine both failures and compare stability with switching response. The design will retain explicit confirmation and cancellation before execution.",
+      "estimated_duration_s": 15.43,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        6
+      ],
+      "new_visual_element": "Constructed failure sequence: a pointer stays on object A while gaze moves to B. Show a blocked action and confirm/cancel mechanism as a design response, not proven safety.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Wrong target",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B10.mp3",
+      "actual_duration_s": 14.95,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "Stable can still be wrong",
+            "box": [
+              0.06614583333333333,
+              0.11296296296296296,
+              0.4822916666666667,
+              0.18425925925925926
+            ]
+          },
+          {
+            "label": "11 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.2078125,
+              0.6092592592592593,
+              0.2296875,
+              0.65
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.3770833333333333,
+              0.6092592592592593,
+              0.39895833333333336,
+              0.65
+            ]
+          },
+          {
+            "label": "Gaze",
+            "box": [
+              0.5583333333333333,
+              0.2953703703703704,
+              0.6140625,
+              0.33425925925925926
+            ]
+          },
+          {
+            "label": "Estimate",
+            "box": [
+              0.5583333333333333,
+              0.47962962962962963,
+              0.6494791666666667,
+              0.5194444444444445
+            ]
+          },
+          {
+            "label": "Illustrative switching lag",
+            "box": [
+              0.6197916666666666,
+              0.7111111111111111,
+              0.8442708333333333,
+              0.7564814814814815
+            ]
+          },
+          {
+            "label": "Confirm or cancel before execution",
+            "box": [
+              0.321875,
+              0.8027777777777778,
+              0.6776041666666667,
+              0.8444444444444444
+            ]
+          },
+          {
+            "label": "Constructed / proposed interaction",
+            "box": [
+              0.35052083333333334,
+              0.8925925925925926,
+              0.6494791666666667,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 14.958333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B10.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "title": "Skills and checks",
+      "narration_text": "During AI-assisted coding, my prompt contract will define the inputs, target estimate, and selection state. Tests will check missing inputs, invalid coordinates, and unconfirmed execution requests. I will keep the prompts, revisions, and actual results so another person can inspect the checks.",
+      "estimated_duration_s": 18.0,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        4
+      ],
+      "new_visual_element": "Constructed development loop: specify, generate, check, revise. All visible code, tool responses, or test output must be real; this beat uses a diagram rather than invented code.",
+      "evidence_status": "constructed",
+      "on_screen_label": "Specify / verify",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B11.mp3",
+      "actual_duration_s": 16.02,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "A contract with explicit checks",
+            "box": [
+              0.065625,
+              0.11296296296296296,
+              0.5796875,
+              0.18333333333333332
+            ]
+          },
+          {
+            "label": "12 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "Inputs",
+            "box": [
+              0.17291666666666666,
+              0.22777777777777777,
+              0.24947916666666667,
+              0.2796296296296296
+            ]
+          },
+          {
+            "label": "Outputs",
+            "box": [
+              0.45208333333333334,
+              0.22685185185185186,
+              0.5479166666666667,
+              0.2796296296296296
+            ]
+          },
+          {
+            "label": "Checks",
+            "box": [
+              0.7453125,
+              0.22685185185185186,
+              0.8322916666666667,
+              0.2712962962962963
+            ]
+          },
+          {
+            "label": "Views / gaze / time",
+            "box": [
+              0.12760416666666666,
+              0.6101851851851852,
+              0.2942708333333333,
+              0.6537037037037037
+            ]
+          },
+          {
+            "label": "Target + state",
+            "box": [
+              0.4322916666666667,
+              0.6101851851851852,
+              0.5666666666666667,
+              0.6546296296296297
+            ]
+          },
+          {
+            "label": "Missing input",
+            "box": [
+              0.7223958333333333,
+              0.35555555555555557,
+              0.8375,
+              0.39814814814814814
+            ]
+          },
+          {
+            "label": "Invalid coordinates",
+            "box": [
+              0.7223958333333333,
+              0.462037037037037,
+              0.8838541666666667,
+              0.49907407407407406
+            ]
+          },
+          {
+            "label": "Not confirmed",
+            "box": [
+              0.7223958333333333,
+              0.5685185185185185,
+              0.8458333333333333,
+              0.6055555555555555
+            ]
+          },
+          {
+            "label": "Constructed / proposed contract and test cases",
+            "box": [
+              0.29791666666666666,
+              0.8925925925925926,
+              0.7026041666666667,
+              0.9361111111111111
+            ]
+          },
+          {
+            "label": "Reject before motion",
+            "box": [
+              0.38697916666666665,
+              0.7833333333333333,
+              0.6130208333333333,
+              0.8333333333333334
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 16.041666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B11.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "title": "Why this project?",
+      "narration_text": "RaycastGrasp gave me the foundation. EyeSpan asks how a robot can follow a specific target across different views and changing attention. My new course learning will focus on explicit contracts, independent verification, and making a robotics project reproducible for another person.",
+      "estimated_duration_s": 17.57,
+      "duration_status": "measured_local_kokoro",
+      "engine": "kokoro",
+      "speed": 1.0,
+      "rubric_questions": [
+        7
+      ],
+      "new_visual_element": "Constructed closing illustration linking two views across a short timeline. Display the student's identity; no teacher portrait, teacher persona, or channel sign-off.",
+      "evidence_status": "constructed",
+      "on_screen_label": "EyeSpan",
+      "honesty_label": "Constructed",
+      "shot": {
+        "type": "COMPOSITE",
+        "lane": "vox",
+        "source": "own",
+        "treatment": "none",
+        "renderer": "eyespan_v2_draw.py",
+        "render_status": "rendered_visual_only"
+      },
+      "audio_file": "mp3/beat-B12.mp3",
+      "actual_duration_s": 16.79,
+      "qc": {
+        "typography_regions": [
+          {
+            "label": "EYESPAN / PROJECT PITCH",
+            "box": [
+              0.06614583333333333,
+              0.053703703703703705,
+              0.2911458333333333,
+              0.09537037037037037
+            ]
+          },
+          {
+            "label": "EyeSpan",
+            "box": [
+              0.06614583333333333,
+              0.11388888888888889,
+              0.21822916666666667,
+              0.18425925925925926
+            ]
+          },
+          {
+            "label": "13 / 13",
+            "box": [
+              0.8536458333333333,
+              0.053703703703703705,
+              0.9208333333333333,
+              0.09259259259259259
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.2916666666666667,
+              0.6240740740740741,
+              0.31197916666666664,
+              0.6620370370370371
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.19010416666666666,
+              0.6453703703703704,
+              0.21041666666666667,
+              0.6833333333333333
+            ]
+          },
+          {
+            "label": "A",
+            "box": [
+              0.7854166666666667,
+              0.6157407407407407,
+              0.8057291666666667,
+              0.6537037037037037
+            ]
+          },
+          {
+            "label": "B",
+            "box": [
+              0.690625,
+              0.649074074074074,
+              0.7109375,
+              0.687037037037037
+            ]
+          },
+          {
+            "label": "User view",
+            "box": [
+              0.1921875,
+              0.2324074074074074,
+              0.3026041666666667,
+              0.275
+            ]
+          },
+          {
+            "label": "Robot view",
+            "box": [
+              0.6911458333333333,
+              0.2324074074074074,
+              0.8145833333333333,
+              0.275
+            ]
+          },
+          {
+            "label": "Two views. A changing target.",
+            "box": [
+              0.33958333333333335,
+              0.737037037037037,
+              0.6598958333333333,
+              0.7870370370370371
+            ]
+          },
+          {
+            "label": "Zitiantao Lin / Robotics perception + HRI",
+            "box": [
+              0.3151041666666667,
+              0.812962962962963,
+              0.684375,
+              0.8583333333333333
+            ]
+          },
+          {
+            "label": "Constructed / proposed interaction",
+            "box": [
+              0.35052083333333334,
+              0.8925925925925926,
+              0.6494791666666667,
+              0.9361111111111111
+            ]
+          }
+        ],
+        "typography_reason": "Complete authored text inventory, including alternate labels. Diagram edges and supplied image texture are not text. Full unmasked frames still undergo original Gate V without sparse, full-bleed or regional-contrast waivers."
+      },
+      "render_duration_s": 16.791666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media\\B12.mp4",
+        "filled_by": "media",
+        "at": "2026-10-24T21:24:46"
+      }
+    }
+  ]
+}

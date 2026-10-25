@@ -1,0 +1,22 @@
+Arguments: ["F:\\INFO7375-8\\.envs\\pitch-film\\python.exe", "F:\\INFO7375-8\\Final Project Pitch Film\\brutalist.art\\runtime\\scripts\\compile.py", "F:\\INFO7375-8\\Final Project Pitch Film\\eyespan-film-v2", "--height", "1080", "--fps", "24", "--out", "F:\\INFO7375-8\\Final Project Pitch Film\\eyespan-film-v2"]
+
+[art] compiled B00  VIDEO     8.7s  ← B00.mp4
+[art] compiled B01  VIDEO    14.8s  ← B01.mp4
+[art] compiled B02  VIDEO    15.7s  ← B02.mp4
+[art] compiled B03  VIDEO    16.4s  ← B03.mp4
+[art] compiled B04  VIDEO    16.8s  ← B04.mp4
+[art] compiled B05  VIDEO    14.2s  ← B05.mp4
+[art] compiled B06  VIDEO    15.4s  ← B06.mp4
+[art] compiled B07  VIDEO    15.2s  ← B07.mp4
+[art] compiled B08  VIDEO    17.7s  ← B08.mp4
+[art] compiled B09  VIDEO    14.7s  ← B09.mp4
+[art] compiled B10  VIDEO    15.0s  ← B10.mp4
+[art] compiled B11  VIDEO    16.0s  ← B11.mp4
+[art] compiled B12  VIDEO    16.8s  ← B12.mp4
+[art] motion histogram: composite:13
+[art] SKIN LINT: NO RENDERABLE BEATS: no beat carries a shot.remotion.pattern or Manim annotation — the pipeline will render NOTHING and every slot becomes a YOU-slate. The sheet was authored without the scene contract.
+[art] build stamp → beat_sheet.json (13/13 filled)
+[art] wrote F:\INFO7375-8\Final Project Pitch Film\eyespan-film-v2\eyespan-final-project-pitch.mp4  (197.2s, audio: per-beat timeline (source audio preserved), drawtext: yes)
+[art] slots: 13/13 filled — B00:VIDEO B01:VIDEO B02:VIDEO B03:VIDEO B04:VIDEO B05:VIDEO B06:VIDEO B07:VIDEO B08:VIDEO B09:VIDEO B10:VIDEO B11:VIDEO B12:VIDEO
+
+Exit code: 0

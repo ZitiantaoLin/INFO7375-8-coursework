@@ -1,0 +1,57 @@
+{
+  "version": "eyespan-course-pitch-v2",
+  "beats": [
+    {
+      "beat_id": "B00",
+      "narration_text": "When two people face each other, they see different views. One may follow the other's gaze and look for the same object. Could a robot do something similar?"
+    },
+    {
+      "beat_id": "B01",
+      "narration_text": "EyeSpan is my proposed gaze-guided assistive robot system for tabletop object selection. It is intended for people with limited arm movement. The system will map their gaze target into the robot's view, request confirmation, then guide grasping."
+    },
+    {
+      "beat_id": "B02",
+      "narration_text": "I independently built the full RaycastGrasp prototype, integrating mixed reality, eye tracking, object detection, and robot control. The existing setup and project materials provide evidence of my experience in gaze interaction and robotic system integration."
+    },
+    {
+      "beat_id": "B03",
+      "narration_text": "RaycastGrasp matched objects across views by category, with screenshots and manual cross-checking in my earlier workflow. But two cups share one category. EyeSpan will focus on the particular object and update its estimate continuously, aiming to reduce repeated manual submissions."
+    },
+    {
+      "beat_id": "B04",
+      "narration_text": "EyeSpan will distinguish stable looking, switching targets, and alternating looks. Stable gaze will accumulate dwell time; a target switch will reset it. Alternating looks below the threshold will keep the system waiting. Reaching the threshold will request confirmation; grasping will require user approval."
+    },
+    {
+      "beat_id": "B05",
+      "narration_text": "Target mapping will use the two camera views and the gaze location, without requiring a pre-calibrated user-to-robot transformation as a prediction input. Eye-tracker calibration and robot execution coordinates remain separate requirements."
+    },
+    {
+      "beat_id": "B06",
+      "narration_text": "My target role is robotics perception or human-robot interaction engineer. A hiring manager will find an interaction example, my contribution statement, and code within the first minute. This pitch uses labelled illustrations to show the intended experience."
+    },
+    {
+      "beat_id": "B07",
+      "narration_text": "I have written my course project concept and am now starting the course version of EyeSpan. I will deliver a repository with a system demonstration, implementation code, run instructions, and verification records. The planned stack includes Python and a Franka arm."
+    },
+    {
+      "beat_id": "B08",
+      "narration_text": "My first milestone will replay a small licensed Ego-Exo Four D sequence. I will log predictions, timestamps, and settings, and compare predictions with manually labelled reference targets. Ambiguous frames will be flagged. A public or synthetic example will make the workflow inspectable without dataset access."
+    },
+    {
+      "beat_id": "B09",
+      "narration_text": "I will start with a controlled tabletop and a few stationary objects. Moving-object grasping is outside this stage. Offline mapping checks will not establish successful robot grasping. Evaluation with people with motor impairments remains future work."
+    },
+    {
+      "beat_id": "B10",
+      "narration_text": "Look-alike objects may cause wrong-target selection. Smoothing may preserve an error or delay a switch. I will examine both failures and compare stability with switching response. The design will retain explicit confirmation and cancellation before execution."
+    },
+    {
+      "beat_id": "B11",
+      "narration_text": "During AI-assisted coding, my prompt contract will define the inputs, target estimate, and selection state. Tests will check missing inputs, invalid coordinates, and unconfirmed execution requests. I will keep the prompts, revisions, and actual results so another person can inspect the checks."
+    },
+    {
+      "beat_id": "B12",
+      "narration_text": "RaycastGrasp gave me the foundation. EyeSpan asks how a robot can follow a specific target across different views and changing attention. My new course learning will focus on explicit contracts, independent verification, and making a robotics project reproducible for another person."
+    }
+  ]
+}

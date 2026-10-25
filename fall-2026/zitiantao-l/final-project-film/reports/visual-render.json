@@ -1,0 +1,132 @@
+{
+  "B00": {
+    "beat_id": "B00",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 208,
+    "duration_s": 8.666666666666666,
+    "sha256": "57bcc8b76b96fd4472ee92df27913cde704de56d804b96a29ff56c7f83280346",
+    "evidence": "constructed animation"
+  },
+  "B01": {
+    "beat_id": "B01",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 355,
+    "duration_s": 14.791666666666666,
+    "sha256": "a3bf44d4c4d42fafa14a500c4c3a9432156f245a0052549646e686e87daec58a",
+    "evidence": "constructed animation"
+  },
+  "B02": {
+    "beat_id": "B02",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 376,
+    "duration_s": 15.666666666666666,
+    "sha256": "993832dce6257610bcef11280181e6b9a433726b8fc925d2cef6344949dacec8",
+    "evidence": "annotated supplied imagery"
+  },
+  "B03": {
+    "beat_id": "B03",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 393,
+    "duration_s": 16.375,
+    "sha256": "e04113258b18386aae6f56f89d932ad7e0e0b7c60a09188c69124a4502c7a043",
+    "evidence": "constructed animation"
+  },
+  "B04": {
+    "beat_id": "B04",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 402,
+    "duration_s": 16.75,
+    "sha256": "cb480e1dfaf1284a5a2cb1164edea8e75af0620075842ecc35d6b7448300ff9e",
+    "evidence": "constructed animation"
+  },
+  "B05": {
+    "beat_id": "B05",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 341,
+    "duration_s": 14.208333333333334,
+    "sha256": "c58f942ce31faaa7fb089fb3b1b4ddd344dc75abadfd42b2ae14a3216fd261dc",
+    "evidence": "constructed animation"
+  },
+  "B06": {
+    "beat_id": "B06",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 370,
+    "duration_s": 15.416666666666666,
+    "sha256": "7b14cff913cfc4cf2f2761bcdf871a112ea1fa52e044f4e43884be44ec6242ae",
+    "evidence": "constructed animation"
+  },
+  "B07": {
+    "beat_id": "B07",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 364,
+    "duration_s": 15.166666666666666,
+    "sha256": "b4361614258db565f538e05c739598289cb12a4b9d8c272d94485f18b8c33660",
+    "evidence": "constructed animation"
+  },
+  "B08": {
+    "beat_id": "B08",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 425,
+    "duration_s": 17.708333333333332,
+    "sha256": "3cfdb84a5ac72c7382c7a13c34fa6661e0da7da5690595928b7214fa229820de",
+    "evidence": "annotated supplied imagery"
+  },
+  "B09": {
+    "beat_id": "B09",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 352,
+    "duration_s": 14.666666666666666,
+    "sha256": "b3e5e683d93c053a166f3b5a3be71752d8dce7ed93ab73fc8fff0fef1e681bb3",
+    "evidence": "constructed animation"
+  },
+  "B10": {
+    "beat_id": "B10",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 359,
+    "duration_s": 14.958333333333334,
+    "sha256": "81ff6c44cb62a1f97e08ef5b43fb3fd4df7c2ac7881a604c9e7c6491e213ab48",
+    "evidence": "constructed animation"
+  },
+  "B11": {
+    "beat_id": "B11",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 385,
+    "duration_s": 16.041666666666668,
+    "sha256": "b1685cea193a94673ffcd2afd9c0b5e009d79f1d613502362d9e043152c8dfe3",
+    "evidence": "constructed animation"
+  },
+  "B12": {
+    "beat_id": "B12",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24,
+    "frames": 403,
+    "duration_s": 16.791666666666668,
+    "sha256": "8d6be2c6b73b636179bce0b2aa21667cfc29f15a4772c15f893f776c753d35c8",
+    "evidence": "constructed animation"
+  }
+}
